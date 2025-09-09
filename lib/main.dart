@@ -45,7 +45,8 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            BigCard(pair: pair),                // ← Change to this.
+            BigCard(pair: pair),   
+            SizedBox(height: 10),             // ← Change to this.
             ElevatedButton(
               onPressed: () {
                 appState.getNext();
