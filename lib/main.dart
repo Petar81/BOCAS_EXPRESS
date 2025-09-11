@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    page;
+    Widget page;
 switch (selectedIndex) {
   case 0:
     page = GeneratorPage();
