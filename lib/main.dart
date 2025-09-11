@@ -77,7 +77,7 @@ switch (selectedIndex) {
                 children: [
                   SafeArea(
                     child: NavigationRail(
-                      extended: false,
+                      extended: constraints.maxWidth >= 600,
                       destinations: [
                         NavigationRailDestination(
                           icon: Icon(Icons.home),
